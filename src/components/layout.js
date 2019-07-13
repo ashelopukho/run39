@@ -60,12 +60,49 @@ class Layout extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
-        <header>{header}</header>
+        <header>
+          {header}
+          <div style={{ float: "left" }}>бег в калининграде...</div>
+          <div style={{ textAlign: "right" }}>
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/calendar`}
+            >
+              календарь
+            </Link>
+            {/* {" | "}
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/calendar`}
+            >
+              клуб
+            </Link>
+            {" | "}
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/calendar`}
+            >
+              о нас
+            </Link> */}
+          </div>
+          <hr style={{ width: "100%", margin: "0 auto" }}></hr>
+        </header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © {new Date().getFullYear()},{` `}
+          <a href="https://run39.ru">run39</a>
         </footer>
       </div>
     )

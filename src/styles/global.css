@@ -1,0 +1,4 @@
+.calendar th:first-child,
+.calendar td:first-child {
+  white-space: nowrap;
+}

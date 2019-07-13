@@ -3,8 +3,26 @@ import Wordpress2016 from "typography-theme-wordpress-2016"
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
+    a: {
+      boxShadow: `none`,
+    },
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
+    },
+    "a:link": {
+      backgroundColor: `yellow`,
+    },
+
+    // "a:visited" : {
+    //   backgroundColor: `cyan`
+    // },
+
+    "a:hover": {
+      backgroundColor: `hotpink`, // `lightgreen`
+    },
+
+    "a:active": {
+      backgroundColor: `hotpink`,
     },
   }
 }
