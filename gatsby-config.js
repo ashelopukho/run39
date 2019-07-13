@@ -4,9 +4,9 @@ module.exports = {
     author: `ash`,
     description: `Бег в Калининграде.`,
     siteUrl: `https://run39.ru`,
-    // social: {
-    //   twitter: `kylemathews`,
-    // },
+    social: {
+      twitter: `biogenez`,
+    },
   },
   plugins: [
     {
