@@ -10,4 +10,4 @@ distance: 3.9км
 Дистанция: 3.9км<br/>
 Место: Верхнее озеро<br/>
 Стоимость: бесплатно<br/>
-[www](https://amberman.net/events/run/165-zabeg-tridevyatyy-kilometr-3-9-km.html) 
+[www](https://amberman.net/events/run/165-zabeg-tridevyatyy-kilometr-3-9-km.html)
