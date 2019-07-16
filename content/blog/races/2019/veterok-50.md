@@ -11,6 +11,7 @@ distance: 30+км
 Да, да 50 - раз вверх по культовому склону в городе Светлогорск
 Подробности: [ТУТ](https://t.me/joinchat/DNdXlQ9xPjsuUnnWdYGKMw)
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/segments/12995103/embed'></iframe>
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/segments/12995103/embed'>
+</iframe>
 
 p.s.: кол-во забегание на усмотрение участника
