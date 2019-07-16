@@ -41,7 +41,7 @@ class BlogIndex extends React.Component {
                 >
                   {node.frontmatter.date}
                 </span> */}
-              <p
+              <div
                 dangerouslySetInnerHTML={{
                   __html: node.html || node.excerpt,
                 }}
