@@ -65,7 +65,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
+    allMarkdownRemark(sort: {fields: [frontmatter___date], order: ASC}, filter: {fields: {slug: {regex: "/races/"}}}) {
       edges {
         node {
           excerpt

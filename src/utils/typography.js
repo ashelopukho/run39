@@ -1,10 +1,18 @@
 import Typography from "typography"
 import Wordpress2016 from "typography-theme-wordpress-2016"
 
+
 Wordpress2016.overrideThemeStyles = () => {
   return {
+    body: {
+      fontFamily: `'Helvetica',sans-serif`,
+    },
+    p : {
+      fontSize: '15px'
+    },
     a: {
       boxShadow: `none`,
+      color: '#000'
     },
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
@@ -27,7 +35,7 @@ Wordpress2016.overrideThemeStyles = () => {
   }
 }
 
-delete Wordpress2016.googleFonts
+// delete Wordpress2016.googleFonts
 
 const typography = new Typography(Wordpress2016)
 

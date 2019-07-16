@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import { rhythm, scale } from "../utils/typography"
 
 class BlogIndex extends React.Component {
   render() {
@@ -20,23 +20,27 @@ class BlogIndex extends React.Component {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <h4
-                style={{
-                  marginBottom: rhythm(1 / 6),
-                }}
-              >
-                <b>{node.frontmatter.date}</b>
-              </h4>
               <Link
                 // style={{ boxShadow: `none` }}
                 to={node.fields.slug}
                 style={{
                   color: "#000",
                   textDecoration: "none",
+                  display: "inline",
+                  fontSize: "24px",
                 }}
               >
                 {title}
               </Link>
+              {/* <span
+                  style={{
+                    ...scale(-1 / 5),
+                    display: `block`,
+                    marginBottom: rhythm(1),
+                  }}
+                >
+                  {node.frontmatter.date}
+                </span> */}
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.html || node.excerpt,
@@ -62,7 +66,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: ASC }
-      filter: { frontmatter: { pinned: { eq: "yes" } } }
+      filter: { frontmatter: { post: { eq: "yes" } } }
     ) {
       edges {
         node {
