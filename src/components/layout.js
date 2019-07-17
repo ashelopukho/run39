@@ -105,6 +105,8 @@ class Layout extends React.Component {
           <a href="https://run39.ru">run39</a>
           {` | `}
           <a target="_blank" href="https://www.strava.com/clubs/running-kaliningrad">strava club</a>
+          {` | `}
+          <a target="_blank" href="https://tele.gg/joinchat/DNdXlQ9xPjsuUnnWdYGKMw">tg</a>
         </footer>
       </div>
     )
