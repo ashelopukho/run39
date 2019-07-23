@@ -13,3 +13,4 @@ distance: 10000м
 Дистанция: 10000м<br/>
 Место: Трудовые резервы<br/>
 Стоимость: бесплатно<br/>
+Фото: [Архив 1](https://yadi.sk/d/do-9YPoqbJUwIg) | [Архив 2](https://photos.app.goo.gl/9vbsQzdknnuYP8RBA)
