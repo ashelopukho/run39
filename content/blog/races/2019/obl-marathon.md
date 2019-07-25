@@ -10,5 +10,4 @@ distance: 42, 21, 10
 Дистанция: 42, 21, 10<br/>
 Место: Парк "Южный"<br/>
 Стоимость: бесплатно<br/>
-[www](https://https://vk.com/la_kenig?w=wall-795150_14002
-)
+[www](https://vk.com/la_kenig?w=wall-795150_14002)
