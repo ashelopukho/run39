@@ -6,4 +6,5 @@ post: "yes"
 
 ![alt](./baltic-space-trail-2019-07-28.png)
 
-Все фотографии: [ТУТ](https://www.sport-images.ru/gallery.php?mode=gallery&id=854&page=1) ...продают
+Фото: [Архив 1 (бесплатно)](https://vk.com/la_kenig?z=album-41890226_266662582) | [Архив 2 (платно)](https://www.sport-images.ru/gallery.php?mode=gallery&id=854&page=1)
+

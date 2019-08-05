@@ -12,4 +12,4 @@ distance: 20км
 Стоимость: 1200<br/>
 [www](https://spacemarathon.ru/en/races/balticspacetrail2019/)
 
-Фото: [Архив](https://www.sport-images.ru/gallery.php?mode=gallery&id=854&page=1)
+Фото: [Архив 1 (бесплатно)](https://vk.com/la_kenig?z=album-41890226_266662582) | [Архив 2 (платно)](https://www.sport-images.ru/gallery.php?mode=gallery&id=854&page=1)
