@@ -2,3 +2,25 @@
 .calendar td:first-child {
   white-space: nowrap;
 }
+
+.announcement {
+  color: #fff;
+  background-image: url(../../content/assets/zelek.png);
+  padding: 10px;
+  box-shadow: inset 0 0 0 1000px rgba(255, 105, 180, 0.8);
+}
+
+.ttl {
+  font-size: 48px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.dscr {
+  font-size: 24px;
+  margin: 20px 0 0;
+}
+
+.type {
+  margin: 0 0 15px 0;
+}

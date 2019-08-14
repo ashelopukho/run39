@@ -1,24 +1,24 @@
 import Typography from "typography"
 import Wordpress2016 from "typography-theme-wordpress-2016"
 
-
 Wordpress2016.overrideThemeStyles = () => {
   return {
     body: {
       fontFamily: `'Helvetica',sans-serif`,
     },
-    p : {
-      fontSize: '15px'
+    p: {
+      fontSize: "15px",
     },
     a: {
       boxShadow: `none`,
-      color: '#000'
+      color: "#000",
     },
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
     "a:link": {
       backgroundColor: `yellow`,
+      padding: `0 4px`,
     },
 
     // "a:visited" : {

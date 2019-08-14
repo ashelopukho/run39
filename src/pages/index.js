@@ -16,6 +16,13 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Бег в Калининграде" />
         <Bio />
+        <div className="announcement">
+          <p className="type">Длительная тренировка</p>
+          <p className="ttl">17 августа</p>
+          <p className="ttl">в 8:00</p>
+          <p className="dscr"><a href="https://goo.gl/maps/MrfpYtch8HnPxFJL7" target="_blank">Зеленоградск</a> / 25 км / темп: 5:00</p>
+        </div>
+        <hr style={{ width: "100%", margin: "30px auto" }}></hr>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
